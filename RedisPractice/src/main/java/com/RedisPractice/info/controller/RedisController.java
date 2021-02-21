@@ -22,7 +22,7 @@ public class RedisController {
 		stringOoperation.set(redisKey, redisValue);
 
 
-		return null;
+		return "{"+ redisKey +":"+ redisValue +"}";
 	}
 
 }
